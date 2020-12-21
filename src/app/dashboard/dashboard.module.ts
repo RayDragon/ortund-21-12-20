@@ -1,11 +1,10 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MenuComponent } from './menu/menu.component';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { MenuComponent } from "./menu/menu.component";
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [MenuComponent]
+  imports: [CommonModule],
+  declarations: [MenuComponent],
+  exports: [MenuComponent]
 })
-export class DashboardModule { }
+export class DashboardModule {}
